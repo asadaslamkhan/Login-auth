@@ -16,7 +16,7 @@ const SignUp = () => {
             createUserWithEmailAndPassword(auth, email,password)
             Swal.fire({
                 title: "Congratulation",
-                text: "Your Account Has Been Created",
+                text: "Your Account Has Been Created Succesfully",
                 icon: "success"
               });
         }catch(err){
